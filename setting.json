@@ -1,0 +1,27 @@
+{
+  // editor
+  "editor.fontSize": 16,
+  "editor.fontFamily": " Operator Mono, Fira Code",
+  "editor.fontWeight": "400",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  // cursor
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorBlinking": "expand",
+  "workbench.colorTheme": "Andromeda Bordered",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.mouseWheelZoom": true,
+  "files.autoSave": "onFocusChange",
+  "update.mode": "none",
+}
