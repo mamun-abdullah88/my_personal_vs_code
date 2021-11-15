@@ -1,13 +1,14 @@
 >>> Plugins:
 01. Live Server
-02. vscode-icons
-03. Color Highlight
-04. Auto Rename Tag
-05. Bracket Pair Colorizer
+02. Color Highlight
+03. Auto Rename Tag
+04. Bracket Pair Colorizer
 
->>> Themes:
+>>> Themes & Icons:
 01. Andromeda
 02. Community Material Theme
 03. Dracula Official
 04. Cobalt2
-05.
+05. vscode-icons
+06. Material Icon Theme
+07. 
