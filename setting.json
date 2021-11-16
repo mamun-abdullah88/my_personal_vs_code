@@ -25,3 +25,13 @@
   "files.autoSave": "onFocusChange",
   "update.mode": "none",
 }
+
+// Live Sass Compiler Setting
+"liveSassCompile.settings.genarateMap": false,
+"liveSassCompile.settings.formats":[
+      {
+          "format": "compressed",
+          "extensionName": ".min.css",
+          "savePath": "/css"
+      },
+]
