@@ -1,37 +1,37 @@
 {
-  // editor
-  "editor.fontSize": 16,
-  "editor.fontFamily": " Operator Mono, Fira Code",
-  "editor.fontWeight": "400",
-  "editor.fontLigatures": true,
-  "editor.wordWrap": "on",
-  "editor.minimap.enabled": false,
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": "comment",
-        "settings": {
-          "fontStyle": "italic"
+    // editor
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Fira Code, Operator Mono",
+    "editor.fontWeight": "500",
+    "editor.fontLigatures": true,
+    "editor.wordWrap": "on",
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "scope": "comment",
+          "settings": {
+            "fontStyle": "italic"
+          }
         }
-      }
-    ]
-  },
-  // cursor
-  "editor.cursorSmoothCaretAnimation": true,
-  "editor.cursorBlinking": "expand",
-  "workbench.colorTheme": "Andromeda Bordered",
-  "workbench.iconTheme": "vscode-icons",
-  "editor.mouseWheelZoom": true,
-  "files.autoSave": "onFocusChange",
-  "update.mode": "none",
-}
-
-// Live Sass Compiler Setting
-"liveSassCompile.settings.genarateMap": false,
-"liveSassCompile.settings.formats":[
+      ]
+    },
+    // Sass
+    "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.formats": [
       {
-          "format": "compressed",
-          "extensionName": ".min.css",
-          "savePath": "/css"
-      },
-]
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePath": "/css"
+      }
+    ],
+    // cursor
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorBlinking": "expand",
+    "workbench.colorTheme": "Cobalt2",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.mouseWheelZoom": true,
+    "files.autoSave": "onFocusChange",
+    "update.mode": "none",
+    "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+    "liveServer.settings.donotShowInfoMsg": true,
+  }
